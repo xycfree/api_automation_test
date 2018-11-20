@@ -77,7 +77,8 @@ AUTH_PROFILE_MODULE = 'djangoadmin.api_test.UserProfile'
 # Application definition
 
 INSTALLED_APPS = [
-    'api_test.apps.SuitConfig',
+    'suit',
+    # 'api_test.apps.SuitConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -89,6 +90,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'rest_framework_swagger',
+
 ]
 
 SWAGGER_SETTINGS = {
@@ -169,7 +171,7 @@ DATABASES = {
         'HOST': '10.206.68.249',
         'PORT': 3306,
         'OPTIONS': {
-            'init_command': 'SET storage_engine=INNODB;',
+            'init_command': 'SET default_storage_engine=INNODB;',
             'charset': 'utf8',
             # 'isolation_level': 'read comitted',
             'isolation_level': None,
