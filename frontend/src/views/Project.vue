@@ -63,7 +63,7 @@
             return {
                 tabPosition: 'top',
                 project_id:'',
-                sysName:'自动化测试平台',
+                sysName:'AI自动化测试平台',
                 collapsed:false,
                 sysUserName: '',
                 sysUserAvatar: '',

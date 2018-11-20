@@ -1,1 +1,1 @@
-<template></template>
+<template>Ai自动化平台</template>

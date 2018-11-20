@@ -165,10 +165,15 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'api_test',
         'USER': 'root',
-        'PASSWORD': 'lt19910301',
-        # 'HOST': '120.79.232.23',
-        'HOST': '172.18.162.26',
-        'PORT': '3306',
+        'PASSWORD': 'admin123',
+        'HOST': '10.206.68.249',
+        'PORT': 3306,
+        'OPTIONS': {
+            'init_command': 'SET storage_engine=INNODB;',
+            'charset': 'utf8',
+            # 'isolation_level': 'read comitted',
+            'isolation_level': None,
+        }
     }
 }
 

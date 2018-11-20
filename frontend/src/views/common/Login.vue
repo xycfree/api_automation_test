@@ -10,7 +10,7 @@
             <li><div style="margin-left:120px;">松</div></li>
         </ul>
         <div style="width:32%;height: auto;margin-left: 30%">
-            <div class="title0">自动化测试平台</div>
+            <div class="title0">AI自动化测试平台</div>
             <div class="title1">项目管理、接口管理、用例管理、测试报告、任务设置</div>
             <div class="lun-container">
                 <div class="carouse" id="carouse">
